@@ -12,6 +12,7 @@ Usage
 =====================
 
 `git clone git@github.com:AaronAcerboni/automatic-file-backup.git`
+
 `npm install`
 
 Define your backup instructions in `watched.json`.
