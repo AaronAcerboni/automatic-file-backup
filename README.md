@@ -47,16 +47,13 @@ like to backup.
 
 Windows and Unix filepath notation is supported. See `watched.sample.json` for an example.
 
-- `{}` defines a different watch rule. This is representing a file or directory you want 
-to back up and how.
-
 - `file` defines the file or directory you wish to back up
 
-- `backup to` defines where the file or directory should be copied to
+- `backup to` (optional) defines where the file or directory should be copied to. Default same directory.
 
-- `backup every` defines how often in milliseconds a copy should be asynchronously be made
+- `backup every` defines how often in milliseconds a copy should be asynchronously be made. E.g. 3600000 is 1 hour.
 
-- `single backup` defines whether or not you wish to make multiple back ups or stick to just one back up.
+- `single backup` (optional) defines whether or not you wish to make multiple back ups or stick to just one back up. Default false.
 
 Single backups will be named like so:
 
