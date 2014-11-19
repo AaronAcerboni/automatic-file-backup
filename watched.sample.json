@@ -1,0 +1,14 @@
+[
+	{
+		"file": "C:\\My Documents\\My Games\\Pacman\\Saves",
+		"backup to": "F:\\Backup\\Games\\Saves",
+		"backup every": 1200000,
+		"single backup": true
+	},
+	{
+		"file": "C:\\My Documents\\Study\\drugs.docx",
+		"backup to": "F:\\Backup\\Uni\\Medicine",
+		"backup every": 600000,
+		"single backup": false
+	}
+]
