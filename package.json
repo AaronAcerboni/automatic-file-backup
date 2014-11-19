@@ -22,5 +22,10 @@
     "files"
   ],
   "author": "Aaron Acerboni",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "ncp": "~1.0.1",
+    "slash": "~1.0.0"
+  },
+  "devDependencies": {}
 }
